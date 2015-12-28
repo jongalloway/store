@@ -7,6 +7,7 @@ namespace store.Models
 {
     public class Customer : Person
     {
+        public int ID { get; set; }
         public List<Address> BillingAddresses { get; set;  }
         public List<Address> ShippingAddresses { get; set; }
         public List<Order> OrderHistory { get; set; }

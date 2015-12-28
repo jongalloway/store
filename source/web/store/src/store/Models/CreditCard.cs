@@ -7,6 +7,7 @@ namespace store.Models
 {
     public class CreditCard
     {
+        public int ID { get; set; }
         public string Number { get; set; }
         public DateTime ExpirationDate { get; set; }
         public int CVC { get; set; }

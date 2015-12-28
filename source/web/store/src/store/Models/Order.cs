@@ -7,6 +7,7 @@ namespace store.Models
 {
     public class Order
     {
+        public int ID { get; set; }
         public enum ShippingType
         {
             Standard,

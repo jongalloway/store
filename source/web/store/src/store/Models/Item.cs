@@ -7,7 +7,8 @@ namespace store.Models
 {
     public class Item
     {
-        public int SkuOrIsbn { get; set; }
+        public int ID { get; set; }
+        public Product  Product { get; set; }
         public string Color { get; set; }
         public string Size { get; set; }
         public string Name { get; set; }

@@ -7,6 +7,7 @@ namespace store.Models
 {
     public class ReturnInfo
     {
+        public int ID { get; set; }
         public enum ReturnReason
         {
             Defective,
