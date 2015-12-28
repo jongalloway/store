@@ -18,12 +18,12 @@ namespace store.Models
             Sunday
         }
 
-        public List<Item> Items { get; set; }
-        public double Cost { get; set; }
-        public DateTime Date { get; set; }
+        public List<OrderDetail> Details { get; set; }
+        public double TotalCost { get; set; }
+        public DateTime OrderDate { get; set; }
         public ShippingType Shipping { get; set; }
         public DateTime PromisedDate { get; set; }
         public ReturnInfo Return { get; set; }
-
+        public DateTime DeliveryDate { get; set; }
     }
 }
