@@ -7,8 +7,8 @@ namespace store.Models
 {
     public class Author : Person
     {
-        public int ID { get; set; }
-        public List<Book> Books { get; set; }
+        public virtual int ID { get; set; }
+        public virtual List<Book> Books { get; set; }
 
     }
 }

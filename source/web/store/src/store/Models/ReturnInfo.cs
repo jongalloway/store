@@ -7,7 +7,7 @@ namespace store.Models
 {
     public class ReturnInfo
     {
-        public int ID { get; set; }
+        public virtual int ID { get; set; }
         public enum ReturnReason
         {
             Defective,
@@ -21,10 +21,10 @@ namespace store.Models
         }
 
 
-        public Order OriginalOrder { get; set; }
-        public DateTime DateToReturnBy { get; set; }
-        public DateTime DateReturnReceived { get; set; }
-        public ReturnReason Reason { get; set; }
+        public virtual Order OriginalOrder { get; set; }
+        public virtual DateTime DateToReturnBy { get; set; }
+        public virtual DateTime DateReturnReceived { get; set; }
+        public virtual ReturnReason Reason { get; set; }
 
 
     }

@@ -7,11 +7,11 @@ namespace store.Models
 {
     public class ShoppingCart
     {
-        public int ID { get; set; }
-        public int CustomerID { get; set; }
-        public List<OrderDetail> CartItems { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateLastMOdified { get; set; }
-        public bool Saved { get; set; }
+        public virtual int ID { get; set; }
+        public virtual int CustomerID { get; set; }
+        public virtual List<OrderDetail> CartItems { get; set; }
+        public virtual DateTime DateCreated { get; set; }
+        public virtual DateTime DateLastMOdified { get; set; }
+        public virtual bool Saved { get; set; }
     }
 }

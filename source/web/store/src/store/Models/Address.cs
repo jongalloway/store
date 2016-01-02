@@ -7,13 +7,13 @@ namespace store.Models
 {
     public class Address
     {
-        public int ID { get; set; }
+        public virtual int ID { get; set; }
         // Currently only supporting US & Canada
-        public string AddressLine1 { get; set; }
-        public string AddressLine2 { get; set; }
-        public string City { get; set; }
-        public string StateOrProvince { get; set; }
-        public string ZipOrPostalCode { get; set; }
+        public virtual string AddressLine1 { get; set; }
+        public virtual string AddressLine2 { get; set; }
+        public virtual string City { get; set; }
+        public virtual string StateOrProvince { get; set; }
+        public virtual string ZipOrPostalCode { get; set; }
 
     }
 }

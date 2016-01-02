@@ -25,12 +25,12 @@ namespace store.Models
 
 
         }
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public List<Author> Authors { get; set; }
-        public string ISBN { get; set; }
-        public string ISBN13 { get; set; }
-        public List<Genre> Genres { get; set; }
+        public virtual  int ID { get; set; }
+        public virtual  string Name { get; set; }
+        public virtual  List<Author> Authors { get; set; }
+        public virtual  string ISBN { get; set; }
+        public virtual  string ISBN13 { get; set; }
+        public virtual  List<Genre> Genres { get; set; }
 
 
 
